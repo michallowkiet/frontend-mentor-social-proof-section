@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+:root {
+  --primary-color-300: hsl(333, 80%, 67%);
+  --primary-color-700: hsl(300, 43%, 22%);
+  --secondary-color-100: hsl(0, 0%, 100%);
+  --secondary-color-200: hsl(300, 24%, 96%);
+  --secondary-color-300: hsl(303, 10%, 53%);
+  --primary-ff: "League Spartan", sans-serif;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+  --fs-400: 0.8125rem;
+  --fs-500: 0.9375rem;
+  --fs-900: 2rem;
+  --flow-space: 1rem;
+  --border-radius: 0.3rem;
+}
+@media (min-width: 50em) {
+  :root {
+    --fs-900: 3rem;
+    --flow-content: 2rem;
+  }
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: var(--primary-ff);
+  font-size: var(--fs-400);
+  text-align: center;
+}
+
+main {
+  max-width: 1440px;
+  padding: 4rem 2em;
+  margin: 0 auto;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+h1 {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-700);
+  color: var(--primary-color-700);
+  line-height: 1;
+  max-width: 15ch;
+  margin-inline: auto;
+}
+
+.lead {
+  font-size: var(--fs-500);
+  color: var(--secondary-color-300);
+}
+
+.ratings {
+  margin: 3rem 0;
+}
+.ratings .rating {
+  max-width: 25rem;
+  margin-inline: auto;
+  background-color: var(--secondary-color-200);
+  padding: 0.75em;
+  border-radius: var(--border-radius);
+  font-weight: var(--fw-700);
+  color: var(--primary-color-700);
+}
+.ratings .rating .icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+.ratings .rating .icons img {
+  width: var(--fs-400);
+}
+
+.quotes {
+  padding: 0;
+}
+.quotes .quote {
+  max-width: 25rem;
+  margin-inline: auto;
+  background-color: var(--primary-color-700);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  text-align: left;
+}
+.quotes .quote .header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quotes .quote .header img {
+  border-radius: 100%;
+  width: 15%;
+}
+.quotes .quote .header .name {
+  color: var(--secondary-color-100);
+}
+.quotes .quote .header .status {
+  color: var(--primary-color-300);
+}
+.quotes .quote .text {
+  margin-top: 2rem;
+  color: var(--secondary-color-200);
+}
+.quotes .quote .text::before {
+  content: "“";
+}
+.quotes .quote .text::after {
+  content: "”";
+}/*# sourceMappingURL=main.css.map */

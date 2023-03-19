@@ -1,0 +1,29 @@
+body {
+  font-family: var(--primary-ff);
+  font-size: var(--fs-400);
+  text-align: center;
+}
+
+main {
+  max-width: 1440px;
+  padding: 4rem 2em;
+  margin: 0 auto;
+}
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, 1rem);
+}
+
+h1 {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-700);
+  color: var(--primary-color-700);
+  line-height: 1;
+  max-width: 15ch;
+  margin-inline: auto;
+}
+
+.lead {
+  font-size: var(--fs-500);
+  color: var(--secondary-color-300);
+}

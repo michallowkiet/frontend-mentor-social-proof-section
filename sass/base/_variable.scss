@@ -1,0 +1,27 @@
+:root {
+  --primary-color-300: hsl(333, 80%, 67%);
+  --primary-color-700: hsl(300, 43%, 22%);
+
+  --secondary-color-100: hsl(0, 0%, 100%);
+  --secondary-color-200: hsl(300, 24%, 96%);
+  --secondary-color-300: hsl(303, 10%, 53%);
+
+  --primary-ff: 'League Spartan', sans-serif;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  // Mobile
+  --fs-400: 0.8125rem; // 13px
+  --fs-500: 0.9375rem; // 15px
+  --fs-900: 2rem; // 32px
+
+  --flow-space: 1rem;
+
+  --border-radius: 0.3rem;
+
+  @media (min-width: 50em) {
+    --fs-900: 3rem; // 48px
+    --flow-content: 2rem;
+  }
+}

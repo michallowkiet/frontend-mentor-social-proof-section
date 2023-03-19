@@ -1,0 +1,23 @@
+.ratings {
+  margin: 3rem 0;
+  .rating {
+    max-width: 25rem;
+    margin-inline: auto;
+    background-color: var(--secondary-color-200);
+    padding: 0.75em;
+    border-radius: var(--border-radius);
+    font-weight: var(--fw-700);
+    color: var(--primary-color-700);
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 0.5em;
+      margin-bottom: 0.5em;
+
+      img {
+        width: var(--fs-400);
+      }
+    }
+  }
+}

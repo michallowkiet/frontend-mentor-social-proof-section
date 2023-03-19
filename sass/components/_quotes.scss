@@ -1,0 +1,44 @@
+.quotes {
+  padding: 0;
+
+  .quote {
+    max-width: 25rem;
+    margin-inline: auto;
+    background-color: var(--primary-color-700);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    text-align: left;
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      img {
+        border-radius: 100%;
+        width: 15%;
+      }
+
+      .name {
+        color: var(--secondary-color-100);
+      }
+
+      .status {
+        color: var(--primary-color-300);
+      }
+    }
+
+    .text {
+      margin-top: 2rem;
+      color: var(--secondary-color-200);
+    }
+
+    .text::before {
+      content: '\201C';
+    }
+
+    .text::after {
+      content: '\201D';
+    }
+  }
+}
