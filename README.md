@@ -34,7 +34,7 @@ Users should be able to:
 - Solution URL:
   [Github](https://github.com/michallowkiet/frontend-mentor-social-proof-section)
 - Live Site URL:
-  [Live](hhttps://michallowkiet.github.io/frontend-mentor-social-proof-section)
+  [Live](https://michallowkiet.github.io/frontend-mentor-social-proof-section)
 
 ## My process
 
