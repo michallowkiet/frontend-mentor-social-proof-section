@@ -27,15 +27,14 @@ Users should be able to:
 ### Screenshot
 
 ![](mobile_view.png)
-
 ![](desktop_view.png)
 
 ### Links
 
 - Solution URL:
-  [Add solution URL here](https://github.com/michallowkiet/frontend-mentor-social-proof-section)
+  [Github](https://github.com/michallowkiet/frontend-mentor-social-proof-section)
 - Live Site URL:
-  [Add live site URL here](hhttps://michallowkiet.github.io/frontend-mentor-social-proof-section/)
+  [Live](hhttps://michallowkiet.github.io/frontend-mentor-social-proof-section)
 
 ## My process
 
@@ -49,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.michallowkiet.com)
+- Website - [Michał Łowkiet](https://www.michallowkiet.com)
 - Frontend Mentor -
   [@michallowkiet](https://www.frontendmentor.io/profile/michallowkiet)
