@@ -6,13 +6,15 @@
     margin-inline: auto;
     background-color: var(--primary-color-700);
     border-radius: var(--border-radius);
-    padding: 2rem;
+    padding: 2em 3em;
     text-align: left;
 
     .header {
       display: flex;
       align-items: center;
       gap: 1rem;
+
+      line-height: 1.2;
 
       img {
         border-radius: 100%;
@@ -29,7 +31,7 @@
     }
 
     .text {
-      margin-top: 2rem;
+      margin-top: 1rem;
       color: var(--secondary-color-200);
     }
 
@@ -39,6 +41,16 @@
 
     .text::after {
       content: '\201D';
+    }
+
+    @media (min-width: 50em) {
+      &:nth-child(2) {
+        transform: translateY(1rem);
+      }
+
+      &:nth-child(3) {
+        transform: translateY(2rem);
+      }
     }
   }
 }
